@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #demo, #myParagraph{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+    </style>
+        
+    <!-- <script>
+        function myFunction() {
+            document.getElementById("myParagraph").innerHTML = "Text was changed by our Function";          
+        }
+
+        myFunction();
+    </script> -->
+</head> 
+
+<body>
+    <div id="demo"></div>
+    <div class="myClass"></div>
+    <p class="myClass"></p>
+    <p id="myParagraph">This is default state of paragraph</p>
+    <button type="button" onclick="myFunction()">Click Me</button>
+    <button type="button" onclick="window.print()">Print</button>
+    
+    <script src="./script.js" type="text/javascript">
+        //myFunction(); it doesn't work, don't do it (bcs it has src so it only loads a code from the source)!!!
+        // console.log("test");
+    </script>       
+
+    <script src="./script2.js" type="text/javascript"></script>       
+
+    <script>
+        // my custom code
+        // document.getElementById("myParagraph").innerHTML = 25*3;
+        // document.write(100*3);
+        // window.alert("My custom message");
+    </script>
+
+        
+</body>
+</html>
