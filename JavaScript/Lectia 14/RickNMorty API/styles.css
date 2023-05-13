@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#characters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1000px;
+    margin: 25px auto;
+    padding: 25px;
+    gap: 25px;
+}
+
+#characters div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    height: 450px;
+}
+
+#characters h1{
+    text-align: center;
+}
+
+#characters img {
+    border-radius: 10px;
+}
+
+#characters p {
+    font-size: 110%;
+}
+
+#title {
+    margin-top: 20px;
+    font-size: 55px;
+    color: #00B5CC;
+    -webkit-text-stroke: 2px #B2DF28;
+    text-align: center;
+}
