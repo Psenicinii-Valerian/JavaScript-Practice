@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div>
+                <h1 id="title">Untitled</h1>
+            </div>
+            <div id="settings">
+                <div>
+                    <input type="number" placeholder="Width" id="width" min="50" max="4000">
+                    <input type="number" placeholder="Height" id="height" min="50" max="4000">
+                    <button id="set-size">Set</button>
+                </div>
+                <div>
+                    <input type="text" placeholder="Title" id="change-title">
+                </div>
+                <div id="download">
+                    Download
+                </div>
+                <div>
+                    <input type="number" id="size" placeholder="Brush size" min="1" max="25">
+                    <input type="color" id="color">
+                    <button id="clear">Clear</button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <canvas id="canvas"></canvas>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

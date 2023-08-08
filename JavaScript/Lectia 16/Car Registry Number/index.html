@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Verfica disponibilitatea unui numar</h1>
+        <form>
+            <select id="type">
+                <option value="car">Autovehicul</option>
+                <option value="bike">Motocicleta</option>
+                <option value="truck">Remorca</option>
+            </select>
+            <div id="plate">
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/2560px-Flag_of_Moldova.svg.png" alt="MD flag">
+                    <span>MD</span>
+                </div>
+                <input type="text" id="letters">
+                <input type="text" id="numbers">
+            </div>
+            <button id="btn">Calculeaza suma</button>
+        </form>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
